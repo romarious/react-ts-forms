@@ -1,0 +1,19 @@
+.tab {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.tab:hover {
+  background-color: lightgray;
+}
+
+.active {
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
